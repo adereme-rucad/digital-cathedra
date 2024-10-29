@@ -10,12 +10,11 @@ body {
 caption{
     margin: 10px; 
     font-size: large;
-    
 }
 .header a {
-color: rgb(17, 0, 255); 
-text-decoration: none; 
-margin-left: 20px; 
+    color: rgb(17, 0, 255); 
+    text-decoration: none; 
+    margin-left: 20px; 
 }
 .header a:hover {
     color: #3498db;
