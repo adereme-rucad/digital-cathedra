@@ -26,7 +26,7 @@ margin-left: 20px;
     display: flex;
     justify-content: center;
 }
-table, th, td{ 
+table{ 
     align-items: center;
     padding: 10px;
     border: 2px solid green;
@@ -35,9 +35,15 @@ table, th, td{
     margin: 20px;
     width: 50%;;
 }
-.strochka:hover {
-    background-color: aquamarine;
+.strochka {
+    text-align: center;
 }
 .strochka:nth-child(even) {
+    background-color: rgb(167, 50, 149);
+}
+.strochka:nth-child(odd) {
+    background-color: gold;
+}
+.strochka:hover {
     background-color: aquamarine;
 }
