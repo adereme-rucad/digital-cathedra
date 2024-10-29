@@ -20,6 +20,9 @@ a {
     color: rgb(255, 0, 68);
     text-decoration: none; 
 }
+.header a:hover {
+    color: #3498db;
+}
 
 .content {
     display: flex;
