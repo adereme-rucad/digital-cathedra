@@ -28,18 +28,25 @@ margin-left: 20px;
 }
 table{ 
     align-items: center;
+        width: 50%;
+}
+.oglavlenie{
     padding: 10px;
     border: 2px solid green;
     border-collapse: collapse;
-    background-color: blueviolet;
+    margin: 10px;
+}
+.yacheika{
+    padding: 10px;
+    border: 2px solid green;
+    border-collapse: collapse;
     margin: 20px;
-    width: 50%;;
 }
 .strochka {
     text-align: center;
 }
 .strochka:nth-child(even) {
-    background-color: rgb(167, 50, 149);
+    background-color: rgb(238, 22, 206);
 }
 .strochka:nth-child(odd) {
     background-color: gold;
