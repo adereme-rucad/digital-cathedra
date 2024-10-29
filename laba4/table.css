@@ -1,0 +1,36 @@
+body { 
+    background-color: coral;
+}
+.header {    
+    display: flex;
+    background-color: #4CAF50; 
+    padding: 10px; 
+    display: flex; 
+    justify-content: flex-end; 
+}
+caption{
+    margin: 10px; 
+    font-size: large;
+    
+}
+.header a {
+color: rgb(17, 0, 255); 
+text-decoration: none; 
+margin-left: 20px; 
+}
+.wrapper {
+    height: 50%;
+    width: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+table, th, td{ 
+    align-items: center;
+    padding: 10px;
+    border: 2px solid green;
+    border-collapse: collapse;
+    background-color: blueviolet;
+    margin: 20px;
+    width: 50%;;
+    }

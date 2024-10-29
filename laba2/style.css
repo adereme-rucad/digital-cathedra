@@ -1,0 +1,47 @@
+body {
+    background-color: yellowgreen;
+}
+
+h1, h2 {
+    color: rgb(210, 126, 30);
+    font-size: 24px;
+}
+
+p {
+    line-height: 1.6;
+    margin: 10px 0; 
+}
+
+ul, ol {
+    margin-left: 20px; 
+}
+
+a {
+    color: hotpink;
+    text-decoration: none; 
+}
+
+.content {
+    display: flex;
+    margin: 20px; 
+}
+
+.content-left {
+    background: rgb(255, 238, 255); 
+    margin-right: 20px; 
+    padding: 15px; 
+    border-radius: 8px; 
+    width: 70%; 
+}
+
+.content-right {
+    background: #2c98b3; 
+    padding: 15px; 
+    border-radius: 8px; 
+    width: 30%; 
+}
+
+img {
+    width: 100%; 
+    border-radius: 8px; 
+}
