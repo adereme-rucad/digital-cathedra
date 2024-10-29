@@ -27,7 +27,8 @@ caption{
 }
 table{ 
     align-items: center;
-        width: 50%;
+    width: 50%;
+    border-spacing: 0;
 }
 .oglavlenie{
     padding: 10px;
