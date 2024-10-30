@@ -26,7 +26,6 @@ caption{
 }
 table{ 
     align-items: center;
-    width: 50%;
     border-spacing: 0;
     
 }
@@ -53,4 +52,8 @@ table{
 }
 .strochka:hover {
     background-color: aquamarine;
+}
+.knopka{ 
+    display: flex;
+    justify-content: center;
 }
