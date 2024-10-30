@@ -21,7 +21,6 @@ caption{
 }
 .wrapper {
     height: 50%;
-    width: auto;
     display: flex;
     justify-content: center;
 }
@@ -29,6 +28,7 @@ table{
     align-items: center;
     width: 50%;
     border-spacing: 0;
+    
 }
 .oglavlenie{
     padding: 10px;
