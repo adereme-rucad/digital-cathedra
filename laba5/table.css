@@ -19,15 +19,13 @@ caption{
 .header a:hover {
     color: #3498db;
 }
-.wrapper {
-    height: 50%;
+.wrapper{
     display: flex;
     justify-content: center;
 }
 table{ 
     align-items: center;
     border-spacing: 0;
-    
 }
 .oglavlenie{
     padding: 10px;

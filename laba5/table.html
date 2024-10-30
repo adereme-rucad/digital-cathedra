@@ -54,7 +54,7 @@
         </table>
      </div>
      <div class="wrapper">
-        <form>
+        <form id="my_form">
             <table> 
                 <caption>Добавиться в список</caption>
                 <tr class="strochka"> 
@@ -66,16 +66,17 @@
                 </tr>
                 <tr class="strochka">
                     <td class="yacheika"> 
-                         <label for="number_bilet"> Номер студенческого:</label> <br>
-                         <input type="number" id="number_bilet"><br>
+                         <label for="number_bilet"> Номер студенческого:</label> 
+                         <br>
+                         <input type="number" id="number_bilet" name="nomer_bileta" placeholder="Введите номер студенческого"><br>
                     </td>
                     <td class="yacheika">
                          <label for="number_group"> Номер группы:</label> <br>
-                         <input list="groups" name="number_group">
+                         <input list="groups" name="number_group" placeholder="Введите номер группы">
                              <datalist id="groups">
-                                <option value="6311">
-                                <option value="6301">
-                                <option value="6302">                             </option>
+                                 <option value="6311">
+                                 <option value="6301">
+                                 <option value="6302">                            
                              </datalist>
                          <br>
                      </td>
@@ -88,20 +89,31 @@
                      </td>
                      <td class="yacheika">
                          <label for="age"> Возраст:</label> <br>
-                         <input type="number" id="age" min="0"><br>
+                         <input type="number" id="age" min="0" name="vozrast" placeholder="Введите возраст"><br>
                      </td>
                      <td class="yacheika">
                         <label for="name"> Имя:</label> <br>
-                        <input type="name" id="name"><br>
+                        <input type="name" id="name" name="first_name" placeholder="Введите имя"><br>
                      </td>
                  </tr>
              </table>
              <br>
              <div class="knopka">
-             <input style="align-items: center;" type="submit" value="Отправить данные"> 
+             <input type="submit" value="Отправить данные"> 
              </div> 
          </form>
      </div>
+
+
+     <script> 
+         document
+         .getElementById("my_form")
+         .addEventListener('submit', (event) => {
+             const form = new FormData(event.target);
+             console.log(Object.fromEntries(form));
+             event.preventDefault();
+        });
+     </script>
  </body>
 
 </html>
