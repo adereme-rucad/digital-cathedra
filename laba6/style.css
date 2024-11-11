@@ -1,14 +1,23 @@
+.carousel {
+    height: 500px !important;
+  }
+.carousel-inner img {
+    height: 400px !important;
+    margin: 0 auto;
+  }
 .kartochki {
     margin: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .info {
     margin: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    flex-wrap: wrap;
+    justify-content: space-around;
 }

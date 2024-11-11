@@ -14,7 +14,9 @@
     <!--  Навигационная панель -->
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
      <div class="container-fluid">
-            <a class="navbar-brand" href="#"> Логотип</a>
+            <a class="navbar-brand" href="films.html"> 
+                <img src="logo.jpg" alt="здесь должно быть лого" height="50px">
+            </a>
             <button
                 class="navbar-toggler" 
                 type="button" 
@@ -37,28 +39,29 @@
     </nav>
 
     <!-- Карусель  -->
-    <!-- <div id="carouselExampleCaptions" class="carousel slide">
+     <div class="karusel" id="cars"> 
+     <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div class="carousel-item active" id="car1">
             <img src="tom1.jpg" class="d-block w-100 h-50" alt="здесь должна быть первая фотография актера">
             <div class="carousel-caption d-none d-md-block">
               <h5>Фотография Тома Хэнкса с профиля на кинопоиске</h5>
               <p>Какой-то он уже не молодой</p>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" id="car2">
             <img src="tom2.jpg" class="d-block w-100" alt="здесь должна быть второе фото актера">
             <div class="carousel-caption d-none d-md-block">
               <h5>Том Хэнкс в кадре из фильма терминал</h5>
               <p>Это один из моих любимых фильмов</p>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" id="car3">
             <img src="tom3.jpg" class="d-block w-100 h=30" alt="здесь должна быть тертья фотография актера">
             <div class="carousel-caption d-none d-md-block">
               <h5>Том Хэнкс в кадре из фильма шпионский мост</h5>
@@ -74,10 +77,11 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Следующее </span>
         </button>
-      </div> -->
+      </div>
+     </div>
       <!-- карточки с фильмами  -->
-      <div class="kartochki">
-      <div class="card" style="width: 18rem;">
+      <div class="kartochki" id="cards">
+      <div class="card" style="width: 18rem;" >
         <img src="film1.jpg" class="card-img-top" alt="здесь должен быть постер 1">
         <div class="card-body">
           <h5 class="card-title">«Поймаай меняя, если сможешь» </h5>
@@ -89,7 +93,7 @@
           <a href="https://www.kinopoisk.ru/film/324/" class="btn btn-primary">Открыть на кинопоиске</a>
         </div>
       </div>
-      <div class="card" style="width: 18rem;">
+      <div class="card" style="width: 18rem;" >
         <img src="film2.jpg" class="card-img-top" alt="здесь должен быть постер 2">
         <div class="card-body">
           <h5 class="card-title">Форест Гамп</h5>
@@ -100,7 +104,7 @@
           <a href="https://www.kinopoisk.ru/film/448/" class="btn btn-primary">Открыть на кинопоиске</a>
         </div>
       </div>
-      <div class="card" style="width: 18rem;">
+      <div class="card" style="width: 18rem;" >
         <img src="film3.jpg" class="card-img-top" alt="здесь должен быть постер 3">
         <div class="card-body">
           <h5 class="card-title">Терминал</h5>
@@ -112,11 +116,11 @@
       </div>
       </div>
      <!-- Информация об актере -->
-      <div class="info">
+      <div class="info" id="info">
      <p class="d-inline-flex gap-1">
         <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Показать/скрыть информацию о детстве и учебе</a>
-        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Показать скрыть информацию о личной жизни</button>
-        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Скрыть показать всё</button>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Показать/скрыть информацию о личной жизни</button>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Скрыть/показать всё</button>
       </p>
       <div class="row">
         <div class="col">
@@ -144,6 +148,22 @@
         </div>
       </div>
       </div>
+        <!-- Скролл-спай -->
+        <div class="row">
+            <div class="col-4">
+              <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+                <nav class="nav nav-pills flex-column">
+                  <a class="nav-link" href="#cars">Карусель</a>
+                  <nav class="nav nav-pills flex-column">
+                  </nav>
+                  <a class="nav-link" href="#cards">Карточки с фильмами</a>
+                  <a class="nav-link" href="#info">Кнопки с информацией</a>
+                  </nav>
+                </nav>
+              </nav>
+            </div>
+        </div>
+          
 </body>
 
 </html>
