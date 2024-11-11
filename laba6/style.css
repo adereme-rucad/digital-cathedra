@@ -21,3 +21,6 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.alert{
+    margin-top: 100px;
+}
