@@ -17,6 +17,7 @@
     margin: 20px;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
