@@ -115,3 +115,7 @@ table{
   margin-left: 5px;
   margin-right: 5px;
 }
+.table-fact-el {
+  border: 1px solid gray;
+  padding: 10px;
+}
