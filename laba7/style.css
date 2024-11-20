@@ -111,3 +111,7 @@ body{
 .info-card {
   width: 30rem;
 }
+table{
+  margin-left: 5px;
+  margin-right: 5px;
+}
