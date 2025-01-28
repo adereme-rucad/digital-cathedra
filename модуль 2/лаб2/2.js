@@ -3,7 +3,7 @@
 // возведения числа в квадрат, а для нечётных – стрелочное выражение
 // возведения в куб.
 
-function powerFunction(n) {
+function task2(n) {
     if (n % 2 === 0) {
         console.log('Число четное, функция возводит в квадрат');
         return (x) => x ** 2;
@@ -17,8 +17,8 @@ function powerFunction(n) {
 
 let n = parseInt(prompt('Введите число'));
 
-const powerFunc = powerFunction(n);
+const proverka = task2(n);
 
-if (powerFunc) {
-    console.log(`Результат: ${powerFunc(n)}`);
+if (proverka) {
+    console.log(`Результат: ${proverka(n)}`);
 }
