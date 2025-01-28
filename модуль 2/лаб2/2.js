@@ -3,16 +3,24 @@
 // возведения числа в квадрат, а для нечётных – стрелочное выражение
 // возведения в куб.
 
-function task2() {
-    let n = 5;
+function powerFunction() {
+
+    let userInput = prompt('Введите целое число:');
+    let n = parseInt(userInput);
 
     if (n % 2 === 0) {
-        console.log ('число четное, вовзедено в квадрат');
+        console.log('Число четное, функция возводит в квадрат');
         return (x) => x ** 2; 
-    } 
-    else {
-        console.log ('число нечетное, вовзедено в куб');
-        return (x) => x ** 3;
+    } else {
+        console.log('Число нечетное, функция возводит в куб');
+        return (x) => x ** 3; 
     }
 }
-console.log(x)
+
+
+const powerFunc = powerFunction();
+
+if (powerFunc) {
+    const testNumber = n; 
+    console.log(`Результат: ${powerFunc(testNumber)}`);
+}

@@ -17,6 +17,7 @@ let summa = 0;
 for ( let i = 0; i < spisok.length; i++) {
     summa += spisok[i];
 }
+console.log('Сумма собственых делителей числа: ' + summa + ' Само число: ' + n)
 
 if (summa > n) {
     console.log('Число избыточное');
