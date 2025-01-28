@@ -18,7 +18,4 @@ function task2(n) {
 let n = parseInt(prompt('Введите число'));
 
 const proverka = task2(n);
-
-if (proverka) {
-    console.log(`Результат: ${proverka(n)}`);
-}
+console.log(`Результат: ${proverka(n)}`)
